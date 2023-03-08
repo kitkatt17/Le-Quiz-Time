@@ -5,7 +5,7 @@ Web APIs Challenge: Code Quiz.
 
 # Description:
 
-
+A quiz to test your knowledge on what you know of the topic of coding. As the four questions go on, when you choose an incorrect answer the quiz will penalize the time/score by ten seconds. At the end of the quiz the final score will be presented. It will then ask to enter the initials so it can keep track of the high scores, or even clear all high scores.
 
 
 # User Story
@@ -13,7 +13,6 @@ Web APIs Challenge: Code Quiz.
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
-
 
 
 # Criteria
@@ -31,9 +30,7 @@ WHEN the game is over
 THEN I can save my initials and score
 
 
-
 # Visual
-
 
 
 

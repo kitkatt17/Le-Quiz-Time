@@ -4,7 +4,7 @@
 }
 
 main {
-    
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,14 +21,15 @@ header {
     color: plum;
 }
 
-.navDiv {
+.timer {
     position: absolute;
     background-color: white;
     color: black;
-    left: 920px;
+    left: 1000px;
+    top: 94px;
 }
 
-.timerDisplay {
+.currentTimer {
     left: 1100px;
     text-align: right;
 }
@@ -53,11 +54,127 @@ button {
     margin: 0 auto;
 }
 
-.start-quiz {
+.start-quiz-time {
     text-align: center;
     background-color: darkblue;
     color: white;
 }
 
+/* #quiz-title-timer {
+    background-color: white;
+    margin-left: 30%;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: black;
+} */
 
+#questionsDiv {
+    margin: 25px;
+}
 
+#currentTime {
+    float: right;
+}
+
+#goBack {
+    background-color: darkblue;
+    position: relative;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+    left: 40%;
+    top: 30%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+#clear-score {
+    background-color: darkblue;
+    position: relative;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+    left: 42%;
+    top: 30%;
+    text-align: center;
+    width: auto;
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: darkblue;
+    margin-left: 30%;
+    padding: 15px 30px;
+    font-size: medium;
+    color: white;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+li {
+    background-color: darkmagenta;
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+}
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgrey;
+}
+
+/* media query area */
+@media screen and (max-width: 786px) {
+    body {
+        max-width: 786px;
+    }
+    #wrapper {
+        margin-left: 20%;
+    }
+    #goBack {
+        position: relative;
+        left: 55%;
+    }
+    #clear {
+        position: relative;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        min-width: 640px;
+    }
+    #wrapper {
+        position: absolute;
+        left: 10%;
+    }
+    a {
+        margin-left: 10%;
+    }
+}

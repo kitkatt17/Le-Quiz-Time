@@ -33,6 +33,7 @@ THEN I can save my initials and score
 # Visual
 
 
+![Quiz](./assets/images/ss-quiz.PNG)
 
 
 # Links
